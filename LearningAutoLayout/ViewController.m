@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Auto rotate
+- (BOOL)shouldAutorotate
+{
+    return YES;
+}
+
 @end
